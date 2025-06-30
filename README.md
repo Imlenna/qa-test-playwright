@@ -3,15 +3,15 @@
 Este reposítorio contém um teste automatizado de interface utilizando o framework de automação Playwright para validar a página de Dicionário de Gírias do site qual é a gíria. 
 
 # :mag_right: O que será testado?
-    - Fluxo de acesso da página principal
-    - A pesquisa da página inicial
-    - O acesso ao Dicionário de gírias no menu
-    - A pesquisa em ordem alfabetica no Dicionário A-Z
-    - Verificação do botão "saiba+"
-    - A pesquisa em ordem alfabetica no Menu lateral do Dicionário A-Z (web)
-    - Verificação do botão "ver mais gírias"
-    - Verificação do botão "ver classificação completa"
-    - Verificação do botão "adicionar gíria"
+- Fluxo de acesso da página principal
+- A pesquisa da página inicial
+- O acesso ao Dicionário de gírias no menu
+- A pesquisa em ordem alfabetica no Dicionário A-Z
+- Verificação do botão "saiba+"
+- A pesquisa em ordem alfabetica no Menu lateral do Dicionário A-Z (web)
+- Verificação do botão "ver mais gírias"
+- Verificação do botão "ver classificação completa"
+- Verificação do botão "adicionar gíria"
 
 # :books: Tecnologias usadas
 <img src="https://img.shields.io/badge/-playwright-%232EAD33?style=for-the-badge&logo=playwright&logoColor=white">
@@ -19,20 +19,24 @@ Este reposítorio contém um teste automatizado de interface utilizando o framew
 <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white">
     
 # :open_file_folder: Como instalar?
-        Primeiro, clone o repositório para seu ambiente:
+Primeiro, clone o repositório para seu ambiente:
 > git clone https://github.com/Imlenna/qa-test-playwright.git
 
-    Depois, entre no repositório clonado e no diretório correspondente ao que quer testar. Logo após, insira os seguintes comandos no seu terminal para rodar:
+ Depois, entre no repositório clonado e no diretório correspondente ao que quer testar. Logo após, insira os seguintes comandos no seu terminal para rodar:
 > cd qa-test-playwright
-    Instala todas as dependências
+Instala todas as dependências
 > yarn install or npm install
 
 # :arrows_counterclockwise: Como executar os testes?
 Web:
 > npx playwright test
+
+
 Mobile:
 -IOS: 
 >npx playwright test --project="Mobile Safari"
+
+
 -Android:    
 >npx playwright test --project="Mobile Chrome"
 
