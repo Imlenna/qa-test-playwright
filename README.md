@@ -14,9 +14,9 @@ Este reposítorio contém um teste automatizado de interface utilizando o framew
     - Verificação do botão "adicionar gíria"
 
 # :books: Tecnologias usadas
-    - (https://img.shields.io/badge/-playwright-%232EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-    - (https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-    - (https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+    - <img src="https://img.shields.io/badge/-playwright-%232EAD33?style=for-the-badge&logo=playwright&logoColor=white">
+    - <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
+    - <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white">
     
 # :open_file_folder: Como instalar?
         Primeiro, clone o repositório para seu ambiente:
