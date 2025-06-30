@@ -1,0 +1,22 @@
+{
+  "name": "qa-test-playwright",
+  "version": "1.0.0",
+  "description": "Este reposítorio contém um teste automatizado de interface utilizando o framework de automação Playwright para validar a página de Dicionário de Gírias do site qual é a gíria.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imlenna/qa-test-playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Imlenna/qa-test-playwright/issues"
+  },
+  "homepage": "https://github.com/Imlenna/qa-test-playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^24.0.7"
+  }
+}

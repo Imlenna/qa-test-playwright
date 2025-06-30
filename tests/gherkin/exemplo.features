@@ -1,0 +1,22 @@
+#lang : pt-br
+
+Funcionalidade: Exemplo acesso
+Contexto:
+    Dado: Quero acessar o site qual é a giria
+
+Cenario: Acessar o site na versão web
+    Quando: acesso o site que contem a url https://qualeagiria.com.br/
+    Então:  deve ser carregada a página principal do site.
+    E: Deve aparecer o menu principal com barra de pesquisa
+    E: O Pódio da Comunidade
+    E: O Dicionário de Gírias
+    E: A gíria do dia 
+    E: outras informações relevantes
+
+Cenario: Acessar o site na versão mobile
+    Quando: acesso o site que contem a url https://qualeagiria.com.br/
+    Então:  deve ser carregada a página principal do site.
+    E: Deve aparecer o menu principal com barra de pesquisa
+    E: O Pódio da Comunidade
+    E: O Dicionário de Gírias
+    E: A gíria do dia 
