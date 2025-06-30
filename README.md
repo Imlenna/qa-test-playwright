@@ -31,6 +31,7 @@ Web:
 
 
 Mobile:
+
 -IOS: 
 >npx playwright test --project="Mobile Safari"
 
